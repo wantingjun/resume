@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0., user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content=""
     <title>张杰</title>
   </head>
   <style>
@@ -11,11 +12,21 @@
     }
   </style>
   <body>
-    <h1>张杰</h1>
+    <nav>
+      <ol>
+        <li><a href="#introduction">个人简介</a></li>
+        <li><a href="#events">重要事件</a></li>
+        <li><a href="#experience">演艺经历</a></li>
+        <li><a href="#achievement">作品</a></li>
+        <li><a href="#photo">生活照</a></li>
+        <li><a href="#evaluate">评价</a></li>
+      </ol>
+    </nav>
+    <h1 id='introduction'>张杰</h1>
     <p>
       张杰（Jason Zhang），1982年12月20日出生于四川省成都市，中国流行男歌手。
     </p>
-    <h2>重要事件</h2>
+    <h2 id='events'>重要事件</h2>
     <ul>
       <li>2004年参加歌唱类选秀《我型我秀》，获得全国总冠军并出道。</li>
       <li>
@@ -45,13 +56,13 @@
       </li>
       <li>It All声来无畏》</li>
     </ul>
-    <h2>演艺经历</h2>
+    <h2 id='experience'>演艺经历</h2>
     <ul>
       <li>环球唱片时期</li>
       <li>天娱传媒时期</li>
       <li>环球唱片时期 天娱传媒时期 行星文化时期</li>
     </ul>
-    <h2>作品</h2>
+    <h2 id='achievement'>作品</h2>
 
     <table>
       <thead>
@@ -111,18 +122,31 @@
       </tr>
     </tbody>
     </table>
-    <h2>生活照</h2>
+    <h2 id="photo">生活照</h2>
     
-      <div><img width="400" src='images/1.jpeg' alt='图1'></div>
-      <div><img width="400" src='images/2.jpeg' alt='图2'></div>
-      <div><img width="400" src='images/3.jpeg' alt='图3'></div>
-
-    <h2>评价</h2>
+      <div>
+        <a href="images/1.jpeg" target='_blank'>
+          <img width="400" src='images/1.jpeg' alt='图1'>
+        </a>
+      </div>
+      <div>
+        <a href="images/2.jpeg" target='_blank'>
+          <img width="400" src='images/2.jpeg' alt='图2'>
+        </a>
+      </div>
+      <div>
+        <a href="images/3.jpeg" target='_blank'>
+          <img width="400" src='images/3.jpeg' alt='图3'>
+        </a>
+      </div>
+ 
+    <h2 id='evaluate'>评价</h2>
     <p>
       张杰几乎保持着每年至少发行一张专辑的频率，高产状态下，他对音乐的严格要求始终如一，同时也在不断追求创新，突破自我。尝试MIX-POP（融合流行）音乐风格将张杰音乐道路的可能性进一步拓宽，他不再只是一位很会唱歌的歌手，而是一位很有鉴赏力，很有思想张力的歌者。
     </p>
     <p>
       出道以来，张杰的唱功愈加成熟稳健，已然成了华语歌坛的中坚力量。而经常为影视作品献唱的他，已经能够娴熟地将音乐与影视主题相结合，不论是电视剧还是电影，张杰的歌声总是能够给人带来一种身临其境的感受
     </p>
+    <div style='height:500px'></div>
   </body>
 </html>
